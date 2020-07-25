@@ -4,13 +4,14 @@ package acme.entities.tools;
 import javax.persistence.Entity;
 import javax.persistence.Index;
 import javax.persistence.Table;
-import javax.validation.constraints.Email;
 import javax.validation.constraints.NotBlank;
+import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Pattern;
 
 import org.hibernate.validator.constraints.Range;
 import org.hibernate.validator.constraints.URL;
 
+import acme.datatypes.Email;
 import acme.framework.entities.DomainEntity;
 import lombok.Getter;
 import lombok.Setter;
@@ -45,9 +46,8 @@ public class Tool extends DomainEntity {
 	@URL
 	private String				website;
 
-	@NotBlank
-	@Email
-	private String				contact;
+	@NotNull
+	private Email				contact;
 
 	@NotBlank
 	@Pattern(regexp = "^(open-source)?(closed-source)?$")

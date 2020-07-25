@@ -25,7 +25,7 @@
 	<acme:form-moment code="administrator.inquiry.form.label.deadline" path="deadline"/>
 	<acme:form-textarea code="administrator.inquiry.form.label.description" path="description"/>
 	<acme:form-money code="administrator.inquiry.form.label.money" path="money"/>
-	<acme:form-url code="administrator.inquiry.form.label.contact" path="contact"/>
+	<acme:form-email code="administrator.inquiry.form.label.contact" path="contact"/>
 	
 		<acme:form-submit test="${command == 'create'}" code="administrator.inquiry.form.button.create"
 		action="/administrator/inquiry/create"/>	

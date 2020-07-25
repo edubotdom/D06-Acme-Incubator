@@ -25,7 +25,7 @@
 	<acme:form-moment code="administrator.overture.form.label.deadline" path="deadline"/>
 	<acme:form-textarea code="administrator.overture.form.label.description" path="description"/>
 	<acme:form-money code="administrator.overture.form.label.money" path="money"/>
-	<acme:form-url code="administrator.overture.form.label.contact" path="contact"/>
+	<acme:form-email code="administrator.overture.form.label.contact" path="contact"/>
 	
 		<acme:form-submit test="${command == 'create'}" code="administrator.overture.form.button.create"
 		action="/administrator/overture/create"/>	

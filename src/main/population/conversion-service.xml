@@ -23,6 +23,7 @@
 			<list>
 				<bean class="acme.framework.utilities.LocalisedDateFormatter"/>
 				<bean class="acme.framework.utilities.LocalisedMoneyFormatter"/>
+				<bean class="acme.components.EmailFormatter"/>
 			</list>
 		</property>
 	</bean>

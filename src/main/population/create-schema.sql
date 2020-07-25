@@ -158,7 +158,9 @@
     create table `inquiry` (
        `id` integer not null,
         `version` integer not null,
-        `contact` varchar(255),
+        `contact_domain` varchar(255),
+        `contact_name` varchar(255),
+        `contact_user` varchar(255),
         `creation` datetime(6),
         `deadline` datetime(6),
         `description` varchar(255),
@@ -205,7 +207,9 @@
     create table `overture` (
        `id` integer not null,
         `version` integer not null,
-        `contact` varchar(255),
+        `contact_domain` varchar(255),
+        `contact_name` varchar(255),
+        `contact_user` varchar(255),
         `creation` datetime(6),
         `deadline` datetime(6),
         `description` varchar(255),
@@ -251,7 +255,9 @@
     create table `technology` (
        `id` integer not null,
         `version` integer not null,
-        `contact` varchar(255),
+        `contact_domain` varchar(255),
+        `contact_name` varchar(255),
+        `contact_user` varchar(255),
         `description` varchar(255),
         `inventor` varchar(255),
         `sector` varchar(255),
@@ -265,7 +271,9 @@
     create table `tool` (
        `id` integer not null,
         `version` integer not null,
-        `contact` varchar(255),
+        `contact_domain` varchar(255),
+        `contact_name` varchar(255),
+        `contact_user` varchar(255),
         `description` varchar(255),
         `inventor` varchar(255),
         `sector` varchar(255),

@@ -21,7 +21,7 @@
 	<acme:form-textbox code="anonymous.tool.form.label.inventor" path="inventor"/>
 	<acme:form-textarea code="anonymous.tool.form.label.description" path="description"/>
 	<acme:form-url code="anonymous.tool.form.label.website" path="website"/>
-	<acme:form-url code="anonymous.tool.form.label.contact" path="contact"/>
+	<acme:form-email code="anonymous.tool.form.label.contact" path="contact"/>
 	<acme:form-textbox code="anonymous.tool.form.label.source" path="source"/>
 <%-- 	<acme:form-select code="anonymous.tool.form.label.source" path="source"> --%>
 <%-- 		<acme:form-option code="Open source" value="open-source"/> --%>

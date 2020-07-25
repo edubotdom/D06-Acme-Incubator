@@ -21,7 +21,7 @@
 	<acme:form-textbox code="authenticated.tool.form.label.inventor" path="inventor"/>
 	<acme:form-textarea code="authenticated.tool.form.label.description" path="description"/>
 	<acme:form-url code="authenticated.tool.form.label.website" path="website"/>
-	<acme:form-url code="authenticated.tool.form.label.contact" path="contact"/>
+	<acme:form-email code="authenticated.tool.form.label.contact" path="contact"/>
 	<acme:form-textbox code="authenticated.tool.form.label.source" path="source"/>
 <%-- 	<acme:form-select code="authenticated.tool.form.label.source" path="source"> --%>
 <%-- 		<acme:form-option code="Open source" value="open-source"/> --%>
