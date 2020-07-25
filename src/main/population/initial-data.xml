@@ -83,5 +83,174 @@
 		<property name="sectors" value="Technology,Science,Arts,Business,Health" />
 	</bean>
 	
+	<!-- Cards' beans -->
+	<bean id="card01" class="acme.entities.cards.Card">
+		<property name="holder" value="Holder 01" />
+		<property name="number" value="5279970201047963" />
+		<property name="brand" value="Brand 01" />
+		<property name="cvv" value="123" />
+	</bean>
+
+	<bean id="card02" class="acme.entities.cards.Card">
+		<property name="holder" value="Holder 02" />
+		<property name="number" value="5279970201047963" />
+		<property name="brand" value="Brand 02" />
+		<property name="cvv" value="987" />
+	</bean>
+
+	<bean id="card03" class="acme.entities.cards.Card">
+		<property name="holder" value="Holder 03" />
+		<property name="number" value="5279970201047963" />
+		<property name="brand" value="Brand 03" />
+		<property name="cvv" value="678" />
+	</bean>
+
+	<bean id="card04" class="acme.entities.cards.Card">
+		<property name="holder" value="Holder 04" />
+		<property name="number" value="5500000000000004" />
+		<property name="brand" value="Brand 04" />
+		<property name="cvv" value="789" />
+	</bean>
+
+	<bean id="card05" class="acme.entities.cards.Card">
+		<property name="holder" value="Holder 05" />
+		<property name="number" value="5500000000000004" />
+		<property name="brand" value="Brand 05" />
+		<property name="cvv" value="375" />
+	</bean>
+
+<!-- Patron -->
+	<bean name="patron1UserAccount" class="acme.framework.entities.UserAccount">
+		<property name="username" value="patron1" />
+		<property name="password" value="patron1" />
+		<property name="enabled" value="true" />
+		<property name="identity">
+			<bean class="acme.datatypes.UserIdentity">
+				<property name="name" value="Patron" />
+				<property name="surname" value="One" />
+				<property name="email" value="patron1@acme.com" />
+			</bean>
+		</property>
+		<property name="roles">
+			<list>
+				<ref bean="patron1" />
+				<ref bean="patron1Authenticated" />
+			</list>
+		</property>
+	</bean>
+
+
+	<bean name="patron1" class="acme.entities.roles.Patron">
+		<property name="organisation" value="Firm 1" />
+		<property name="card" ref="card01" />
+		<property name="userAccount" ref="patron1UserAccount" />
+	</bean>
+
+	<bean name="patron1Authenticated" class="acme.framework.entities.Authenticated">
+		<property name="userAccount" ref="patron1UserAccount" />
+	</bean>	
+	
+	<bean name="patron2UserAccount" class="acme.framework.entities.UserAccount">
+		<property name="username" value="patron2" />
+		<property name="password" value="patron2" />
+		<property name="enabled" value="true" />
+		<property name="identity">
+			<bean class="acme.datatypes.UserIdentity">
+				<property name="name" value="Patron" />
+				<property name="surname" value="Two" />
+				<property name="email" value="patron2@acme.com" />
+			</bean>
+		</property>
+		<property name="roles">
+			<list>
+				<ref bean="patron2" />
+				<ref bean="patron2Authenticated" />
+			</list>
+		</property>
+	</bean>
+
+
+	<bean name="patron2" class="acme.entities.roles.Patron">
+		<property name="organisation" value="Firm 2" />
+		<property name="card" ref="card02" />
+		<property name="userAccount" ref="patron2UserAccount" />
+	</bean>
+
+	<bean name="patron2Authenticated" class="acme.framework.entities.Authenticated">
+		<property name="userAccount" ref="patron2UserAccount" />
+	</bean>	
+
+	<bean name="patron3UserAccount" class="acme.framework.entities.UserAccount">
+		<property name="username" value="patron3" />
+		<property name="password" value="patron3" />
+		<property name="enabled" value="true" />
+		<property name="identity">
+			<bean class="acme.datatypes.UserIdentity">
+				<property name="name" value="Patron" />
+				<property name="surname" value="Three" />
+				<property name="email" value="patron3@acme.com" />
+			</bean>
+		</property>
+		<property name="roles">
+			<list>
+				<ref bean="patron3" />
+				<ref bean="patron3Authenticated" />
+			</list>
+		</property>
+	</bean>
+
+
+	<bean name="patron3" class="acme.entities.roles.Patron">
+		<property name="organisation" value="Firm 3" />
+		<property name="card" ref="card03" />
+		<property name="userAccount" ref="patron3UserAccount" />
+	</bean>
+
+	<bean name="patron3Authenticated" class="acme.framework.entities.Authenticated">
+		<property name="userAccount" ref="patron3UserAccount" />
+	</bean>	
+	
+	
+		<!-- Banners' beans -->
+	<bean id="banner01" class="acme.entities.banners.Banner">
+		<property name="picture" value="http://www.lsi.us.es/imagenes/rotulo-lsi-grande3.jpg" />
+		<property name="slogan" value="Banner 01" />
+		<property name="url" value="http://www.lsi.us.es/" />
+		<property name="card" ref="card01" />
+		<property name="patron" ref="patron1" />
+	</bean>
+	
+	<bean id="banner02" class="acme.entities.banners.Banner">
+		<property name="picture" value="http://www.dte.us.es/logo-dte.png" />
+		<property name="slogan" value="Banner 02" />
+		<property name="url" value="http://www.dte.us.es/" />
+		<property name="card" ref="card02" />
+		<property name="patron" ref="patron2" />
+	</bean>
+	
+	<bean id="banner03" class="acme.entities.banners.Banner">
+		<property name="picture" value="https://www.informatica.us.es/images/logo-etsii251.png" />
+		<property name="slogan" value="Banner 03" />
+		<property name="url" value="https://www.informatica.us.es/" />
+		<property name="card" ref="card03" />
+		<property name="patron" ref="patron2" />
+	</bean>
+
+	<bean id="banner04" class="acme.entities.banners.Banner">
+		<property name="picture" value="http://ma1.eii.us.es/media/ma1.png" />
+		<property name="slogan" value="Banner 04" />
+		<property name="url" value="http://ma1.eii.us.es/" />
+		<property name="card" ref="card04" />
+		<property name="patron" ref="patron1" />
+	</bean>
+
+	<bean id="banner05" class="acme.entities.banners.Banner">
+		<property name="picture" value="https://www.us.es/sites/default/files/logoPNG_3.png" />
+		<property name="slogan" value="Banner 05" />
+		<property name="url" value="https://www.us.es/" />
+		<property name="card" ref="card05" />
+		<property name="patron" ref="patron1" />
+	</bean>
+	
 	
 </beans>

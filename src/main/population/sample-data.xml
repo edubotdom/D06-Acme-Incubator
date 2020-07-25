@@ -18,7 +18,7 @@
 	<import resource="conversion-service.xml" />
 
 
-	<!-- Cards' beans -->
+	<!-- Cards' beans
 	<bean id="card01" class="acme.entities.cards.Card">
 		<property name="holder" value="Holder 01" />
 		<property name="number" value="5279970201047963" />
@@ -53,7 +53,8 @@
 		<property name="brand" value="Brand 05" />
 		<property name="cvv" value="375" />
 	</bean>
-
+	 -->
+	
 	<!-- Authenticated Users -->
 
 	<bean name="authenticated1UserAccount" class="acme.framework.entities.UserAccount">
@@ -384,7 +385,7 @@
 		<property name="userAccount" ref="bookkeeper3UserAccount" />
 	</bean>
 	
-<!-- Patron -->
+<!-- Patron 
 	<bean name="patron1UserAccount" class="acme.framework.entities.UserAccount">
 		<property name="username" value="patron1" />
 		<property name="password" value="patron1" />
@@ -474,7 +475,7 @@
 	<bean name="patron3Authenticated" class="acme.framework.entities.Authenticated">
 		<property name="userAccount" ref="patron3UserAccount" />
 	</bean>	
-	
+	-->
 <!-- BOTIABULLETIN'S BEANS-->
 	<bean id="botiaBulletin01" class="acme.entities.botia_bulletins.Botia_bulletin">
 		<property name="moment" value="2018/10/05 05:12"/>
@@ -885,7 +886,7 @@
 		<property name="rookieReward" value="1€" />
 	</bean>
 
-	<!-- Banners' beans -->
+	<!-- Banners' beans
 	<bean id="banner01" class="acme.entities.banners.Banner">
 		<property name="picture" value="http://www.lsi.us.es/imagenes/rotulo-lsi-grande3.jpg" />
 		<property name="slogan" value="Banner 01" />
@@ -925,7 +926,8 @@
 		<property name="card" ref="card05" />
 		<property name="patron" ref="patron1" />
 	</bean>
-
+	-->
+	
 	<!-- Activity' beans -->
 	<bean id="activity01" class="acme.entities.activities.Activity">
 		<property name="title" value="Activity 01" />

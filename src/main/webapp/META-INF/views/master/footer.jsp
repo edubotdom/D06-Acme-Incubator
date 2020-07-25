@@ -34,6 +34,9 @@
 	
 	<acme:footer-logo logo="images/logo.png">
 		<acme:footer-copyright code="master.company.name"/>
-	</acme:footer-logo>		
+	</acme:footer-logo>			
 	
 </acme:footer-panel>
+
+	<acme:form-hidden path="bannerpicture" />
+	<acme:footer-banner banner="${bannerpicture}"></acme:footer-banner>
