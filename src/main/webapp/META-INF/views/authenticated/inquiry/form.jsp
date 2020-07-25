@@ -21,7 +21,7 @@
 	<acme:form-moment code="authenticated.inquiry.form.label.deadline" path="deadline"/>
 	<acme:form-textarea code="authenticated.inquiry.form.label.description" path="description"/>
 	<acme:form-money code="authenticated.inquiry.form.label.money" path="money"/>
-	<acme:form-url code="authenticated.inquiry.form.label.contact" path="contact"/>
+	<acme:form-email code="authenticated.inquiry.form.label.contact" path="contact"/>
 	
   	<acme:form-return code="authenticated.inquiry.form.button.return"/>
 </acme:form>

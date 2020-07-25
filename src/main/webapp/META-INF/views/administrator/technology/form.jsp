@@ -21,7 +21,7 @@
 	<acme:form-textbox code="administrator.technology.form.label.inventor" path="inventor"/>
 	<acme:form-textarea code="administrator.technology.form.label.description" path="description"/>
 	<acme:form-url code="administrator.technology.form.label.website" path="website"/>
-	<acme:form-url code="administrator.technology.form.label.contact" path="contact"/>
+	<acme:form-email code="administrator.technology.form.label.contact" path="contact"/>
 	
 	<jstl:if test="${command == 'create' && source==null || source=='open-source'}">
  	<acme:form-select code="administrator.technology.form.label.source" path="source"> 
