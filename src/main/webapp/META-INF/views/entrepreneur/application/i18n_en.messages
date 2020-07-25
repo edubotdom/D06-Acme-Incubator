@@ -1,0 +1,31 @@
+# i18n_en.messages
+#
+# Copyright (c) 2019 Rafael Corchuelo.
+#
+# In keeping with the traditional purpose of furthering education and research, it is
+# the policy of the copyright owner to permit non-commercial use and redistribution of
+# this software. It has been tested carefully, but it is not guaranteed for any particular
+# purposes.  The copyright owner does not offer any warranties or representations, nor do
+# they accept any liabilities with respect to them.
+
+entrepreneur.application.list.label.ticker = Identification
+entrepreneur.application.list.label.creation = Creation date
+
+entrepreneur.application.form.label.ticker = Identification ticker:
+entrepreneur.application.form.label.roundTicker = Identification ticker of the round:
+entrepreneur.application.form.label.roundCreator = Investment round creator:
+entrepreneur.application.form.label.creation = Creation date:
+entrepreneur.application.form.label.statement = Statement:
+entrepreneur.application.form.label.offer = Invesment money offer:
+entrepreneur.application.form.label.investor = Investor:
+entrepreneur.application.form.label.status = Status:
+entrepreneur.application.form.label.justification = Justification:
+
+entrepreneur.application.form.label.status.accepted= Accepted
+entrepreneur.application.form.label.status.rejected = Rejected
+entrepreneur.application.form.label.status.pending = Pending
+
+investor.application.provideJustification = You must provide a justification if you reject the application offer
+
+entrepreneur.application.form.button.update = Update
+entrepreneur.application.form.button.return = Return

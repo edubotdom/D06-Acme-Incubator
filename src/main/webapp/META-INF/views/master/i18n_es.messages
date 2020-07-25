@@ -1,0 +1,172 @@
+# i18n_es.messages
+#
+# Copyright (c) 2019 Rafael Corchuelo.
+#
+# In keeping with the traditional purpose of furthering education and research, it is
+# the policy of the copyright owner to permit non-commercial use and redistribution of
+# this software. It has been tested carefully, but it is not guaranteed for any particular
+# purposes.  The copyright owner does not offer any warranties or representations, nor do
+# they accept any liabilities with respect to them.
+
+# master.banner.welcome #######################################################
+
+master.banner.background = #c7c2ad 
+
+﻿# master.welcome ##############################################################
+
+master.welcome.title = ¡Bienvenidos!
+master.welcome.text = \
+	¡Bienvenidos a Acme Incubator!  Nunca antes ha sido tan sencillo desarrollar un \
+	proyecto y hacerlo funcionar.
+
+# master.menu #################################################################
+
+master.menu.home = Inicio
+master.menu.sign-up = Registrarse
+master.menu.sign-in = Entrar
+master.menu.sign-out = Salir
+
+# master.menu.anonymous #######################################################
+
+master.menu.anonymous = Anónimo
+master.menu.anonymous.favourite-link = Enlace favorito
+master.menu.anonymous.edubotdom-favourite-link = Enlace favorito de edubotdom
+master.menu.anonymous.createBotiaBulletin = Crear BotiaBulletin
+master.menu.anonymous.listBotiaBulletin = Listar BotiaBulletin
+master.menu.anonymous.listNotice = Listar avisos
+master.menu.anonymous.listTechnology = Listar registros de tecnologías
+master.menu.anonymous.listTechnologyBySector = Registros de tecnologías por sector
+master.menu.anonymous.listTechnologyByStars = Registros de tecnologías por valoración
+master.menu.anonymous.listTool = Listar herramientas
+master.menu.anonymous.listToolBySector = Herramientas por sector
+master.menu.anonymous.listToolByStars = Herramientas por valoración
+
+# master.menu.administrator ###################################################
+
+master.menu.administrator = Administrador
+master.menu.administrator.user-accounts = Cuentas de usuario
+master.menu.administrator.shutdown = Parar el sistema
+master.menu.administrator.listNotice = Listar avisos
+master.menu.administrator.createNotice = Crear un nuevo aviso
+master.menu.administrator.customization = Parámetros de personalización
+master.menu.administrator.dashboard = Mostrar panel de información
+master.menu.administrator.listInquiry = Listar solicitudes
+master.menu.administrator.createInquiry = Crear una solicitud
+master.menu.administrator.listOverture = Listar propuestas
+master.menu.administrator.createOverture = Crear propuesta
+master.menu.administrator.listTechnology = Listar tecnologías
+master.menu.administrator.createTechnology = Registrar tecnología
+master.menu.administrator.listTool = Listar herramientas
+master.menu.administrator.createTool = Registrar herramienta
+master.menu.administrator.listChallenge = Listar desafíos
+master.menu.administrator.createChallenge = Crear un nuevo desafío
+master.menu.administrator.listAuthorizations = Listar solicitudes de contable
+
+# master.menu.patron ########################################################
+
+master.menu.patron = Patrón
+master.menu.patron.createBanner = Crear anuncio
+master.menu.patron.listBanner = Listar anuncios
+
+# master.menu.provider ########################################################
+
+master.menu.provider = Proveedor
+master.menu.provider.favourite-link = Enlace favorito
+
+# master.menu.consumer ##########################################################
+
+master.menu.consumer = Consumidor
+master.menu.consumer.favourite-link = Enlace favorito
+
+# master.menu.investor ########################################################
+
+master.menu.investor = Inversor
+master.menu.investor.listRounds = Listar rondas de inversión
+master.menu.investor.listApplications = Listar mis aplicaciones a rondas de inversión
+
+# master.menu.entrepreneur ####################################################
+
+master.menu.entrepreneur = Emprendedor
+master.menu.entrepreneur.listRounds = Listar mis rondas de inversión
+master.menu.entrepreneur.createRound = Crear nueva ronda de inversión
+master.menu.entrepreneur.listApplications = Listar aplicaciones a mis rondas de inversión
+master.menu.entrepreneur.listApplicationsByCreation = Listar aplicaciones a mis rondas de inversión por fecha
+master.menu.entrepreneur.listApplicationsByTicker = Listar aplicaciones a mis rondas de inversión por identificador
+
+# master.menu.bookkeeper ######################################################
+
+master.menu.bookkeeper = Contable
+master.menu.bookkeeper.listRoundsAccounted = Listar rondas contabilizadas
+master.menu.bookkeeper.listRoundsNotAccounted = Listar rondas no contabilizadas
+
+# master.menu.authenticated ###################################################
+
+master.menu.authenticated = Autenticado
+master.menu.authenticated.listNotice = Listar avisos
+master.menu.authenticated.listInquiry = Listar solicitudes
+master.menu.authenticated.listOverture = Listar propuestas
+master.menu.authenticated.listNotice = Listar avisos
+master.menu.authenticated.listTechnology = Listar registros de tecnologías
+master.menu.authenticated.listTechnologyBySector = Registros de tecnologías por sector
+master.menu.authenticated.listTechnologyByStars = Registros de tecnologías por valoración
+master.menu.authenticated.listTool = Listar herramientas
+master.menu.authenticated.listToolBySector = Herramientas por sector
+master.menu.authenticated.listToolByStars = Herramientas por valoración
+master.menu.authenticated.listChallenges = Listar desafíos
+master.menu.authenticated.listRounds = Listar rondas de inversión
+master.menu.authenticated.listForums = Listar foros
+
+# master.menu.user-account ####################################################
+
+master.menu.user-account = Cuenta
+master.menu.user-account.general-data = Datos generales
+master.menu.user-account.provider = Datos de proveedor
+master.menu.user-account.become-provider = Hazte proveedor
+master.menu.user-account.consumer = Datos de consumidor
+master.menu.user-account.become-consumer = Hazte consumidor
+master.menu.user-account.become-entrepreneur = Hazte emprendedor
+master.menu.user-account.entrepreneur = Datos de emprendedor
+master.menu.user-account.become-investor = Hazte inversor
+master.menu.user-account.investor = Datos de inversor
+master.menu.user-account.become-patron = Hazte patrocinador
+master.menu.user-account.patron = Datos de patrocinador
+master.menu.user-account.request-become-bookkeeper = Solicita ser contable
+master.menu.user-account.become-bookkeeper = Hazte contable
+master.menu.user-account.bookkeeper = Datos de contable
+
+﻿# master.footer ###############################################################
+
+master.footer.title.about = Nosotros
+master.footer.label.company = La empresa
+master.footer.label.license = Licencia
+master.footer.title.social = Social
+master.footer.label.linked-in = Linked-In
+master.footer.label.twitter = Twitter
+master.footer.title.languages = Lenguages
+master.footer.label.english = Inglés
+master.footer.label.spanish = Español
+
+# master.company ##############################################################
+
+master.company.title = La compañía
+master.company.text = \
+	Acme Incubator, Inc. es una compañía fictícia que proporciona un proyecto \
+	plantilla para los estudiantes de la asignatura Diseño y Pruebas, en el Grado \
+	en Ingeniería del Software de la Universidad de Sevilla.
+master.company.name = Acme Incubator, Inc.
+master.company.address = Calle, número, Ciudad, Estado, País
+master.company.phone = +000 123 456
+master.company.email = contact@acme.com
+
+# master.license ##############################################################
+
+master.license.title = Licencia
+master.license.text = \
+	Puede usar este sistema de forma completamente gratuita respetando las leyes \
+	que sean aplicables.  No compartimos ninguna información sobre Ud. con ninguna \
+	otra empresa.  Tan sólo usamos tres cookies, a saber: "JSESSIONID" para identificar \
+	su sesión de trabajo, "remember" para mantener su información de autentificación \
+	durante un máximo de 31 días y "language" para almacenar sus preferencias de \
+	lenguage.  Además, almacenamos un ítem llamado "returnStack" en el almacenamiento \
+	local de su navegador para saber dónde tienen que ir algunos botones.
+	

@@ -1,0 +1,29 @@
+# i18n_es.messages
+#
+# Copyright (c) 2019 Rafael Corchuelo.
+#
+# In keeping with the traditional purpose of furthering education and research, it is
+# the policy of the copyright owner to permit non-commercial use and redistribution of
+# this software. It has been tested carefully, but it is not guaranteed for any particular
+# purposes.  The copyright owner does not offer any warranties or representations, nor do
+# they accept any liabilities with respect to them.
+
+bookkeeper.round.list.label.ticker = Identificación
+bookkeeper.round.list.label.creation = Fecha de creación
+
+bookkeeper.round.form.label.ticker = Indentificación
+bookkeeper.round.form.label.creation = Fecha de creación
+bookkeeper.round.form.label.title = Título
+bookkeeper.round.form.label.description = Descripción
+bookkeeper.round.form.label.money = Cantidad monetaria
+bookkeeper.round.form.label.information = Información
+
+bookkeeper.round.form.label.kind = Tipo de inversión
+
+bookkeeper.round.form.button.accountingList = Lista de contabilidades
+bookkeeper.round.form.button.activitiesList = Listar actividades
+bookkeeper.round.form.button.createAccounting = Crear contabilidad
+
+bookkeeper.round.form.button.create = Crear
+
+bookkeeper.round.form.button.return = Volver

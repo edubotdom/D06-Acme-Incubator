@@ -1,0 +1,21 @@
+# i18n_es.messages
+#
+# Copyright (c) 2019 Rafael Corchuelo.
+#
+# In keeping with the traditional purpose of furthering education and research, it is
+# the policy of the copyright owner to permit non-commercial use and redistribution of
+# this software. It has been tested carefully, but it is not guaranteed for any particular
+# purposes.  The copyright owner does not offer any warranties or representations, nor do
+# they accept any liabilities with respect to them.
+
+authenticated.patron.form.button.create = Hazte empleador
+authenticated.patron.form.button.update = Actualizar datos de empleador
+
+authenticated.patron.form.label.organisation = Organización: 
+
+authenticated.patron.form.button.associateCard = Asociar una tarjeta
+authenticated.patron.form.button.showCard = Mostrar tarjeta
+
+authenticated.patron.form.button.create = Registrar
+authenticated.patron.form.button.update = Actualizar
+authenticated.patron.form.button.return = Volver

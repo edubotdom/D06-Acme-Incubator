@@ -1,0 +1,25 @@
+# i18n_es.messages
+#
+# Copyright (c) 2019 Rafael Corchuelo.
+#
+# In keeping with the traditional purpose of furthering education and research, it is
+# the policy of the copyright owner to permit non-commercial use and redistribution of
+# this software. It has been tested carefully, but it is not guaranteed for any particular
+# purposes.  The copyright owner does not offer any warranties or representations, nor do
+# they accept any liabilities with respect to them.
+
+entrepreneur.activity.form.label.title = Título:
+entrepreneur.activity.form.label.start = Fecha de comienzo:
+entrepreneur.activity.form.label.end = Fecha de fin:
+entrepreneur.activity.form.label.budget = Presupuesto:
+
+entrepreneur.activity.endDateCantBeSoonerThanStart = No puede crear una actividad con fecha de expiración anterior a su creación.
+entrepreneur.activity.moneyQuantityExceeded = Los prespupuestos definidos para las actividades no pueden superar el presupuesto de la ronda de inversión.
+entrepreneur.activity.startDateMustBeFuture = La fecha de inicio debe estar en el futuro.
+
+entrepreneur.activity.form.button.return = Volver
+entrepreneur.activity.form.button.create = Crear
+
+entrepreneur.activity.list.label.title = Título
+entrepreneur.activity.list.label.budget = Presupuesto
+entrepreneur.activity.list.button.return = Volver

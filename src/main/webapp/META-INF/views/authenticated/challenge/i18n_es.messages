@@ -1,0 +1,28 @@
+# i18n_es.messages
+#
+# Copyright (c) 2019 Rafael Corchuelo.
+#
+# In keeping with the traditional purpose of furthering education and research, it is
+# the policy of the copyright owner to permit non-commercial use and redistribution of
+# this software. It has been tested carefully, but it is not guaranteed for any particular
+# purposes.  The copyright owner does not offer any warranties or representations, nor do
+# they accept any liabilities with respect to them.
+
+authenticated.challenge.form.label.title = Título:
+authenticated.challenge.form.label.deadline = Fecha límite:
+authenticated.challenge.form.label.description = Descripción:
+authenticated.challenge.form.label.rookieGoal = Objetivo:
+authenticated.challenge.form.label.rookieReward = Recompensa:
+authenticated.challenge.form.label.averageGoal = Objetivo:
+authenticated.challenge.form.label.averageReward = Recompensa:
+authenticated.challenge.form.label.expertGoal = Objetivo:
+authenticated.challenge.form.label.expertReward = Recompensa:
+authenticated.challenge.form.button.return = Volver
+
+authenticated.challenge.form.label.rookieLevel = Nivel principiante
+authenticated.challenge.form.label.averageLevel = Nivel medio
+authenticated.challenge.form.label.expertLevel = Nivel experto
+
+
+authenticated.challenge.list.label.title = Título
+authenticated.challenge.list.label.deadline = Fecha límite

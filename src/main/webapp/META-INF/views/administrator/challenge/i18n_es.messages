@@ -1,0 +1,36 @@
+# i18n_es.messages
+#
+# Copyright (c) 2019 Rafael Corchuelo.
+#
+# In keeping with the traditional purpose of furthering education and research, it is
+# the policy of the copyright owner to permit non-commercial use and redistribution of
+# this software. It has been tested carefully, but it is not guaranteed for any particular
+# purposes.  The copyright owner does not offer any warranties or representations, nor do
+# they accept any liabilities with respect to them.
+
+administrator.challenge.form.label.title = Título:
+administrator.challenge.form.label.deadline = Fecha límite:
+administrator.challenge.form.label.description = Descripción:
+administrator.challenge.form.label.rookieGoal = Objetivo:
+administrator.challenge.form.label.rookieReward = Recompensa:
+administrator.challenge.form.label.averageGoal = Objetivo:
+administrator.challenge.form.label.averageReward = Recompensa:
+administrator.challenge.form.label.expertGoal = Objetivo:
+administrator.challenge.form.label.expertReward = Recompensa:
+administrator.challenge.form.button.return = Volver
+
+administrator.challenge.form.label.rookieLevel = Nivel principiante
+administrator.challenge.form.label.averageLevel = Nivel medio
+administrator.challenge.form.label.expertLevel = Nivel experto
+
+administrator.challenge.incorrect-currency = El formato de moneda es incorrecto, debe utilizarse el Euro.
+administrator.challenge.null-money = Debe introducir una cantidad monetaria
+administrator.challenge.must-be-filled = Debe rellenar este campo
+administrator.challenges.incorrect-date = La fecha de expiración debe corresponder al futuro
+
+administrator.challenge.form.button.create=Crear
+administrator.challenge.form.button.update=Actualizar
+administrator.challenge.form.button.delete = Eliminar
+
+administrator.challenge.list.label.title = Título
+administrator.challenge.list.label.deadline = Fecha límite

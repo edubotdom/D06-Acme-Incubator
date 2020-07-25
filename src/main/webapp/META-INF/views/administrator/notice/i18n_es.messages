@@ -1,0 +1,26 @@
+# i18n_es.messages
+#
+# Copyright (c) 2019 Rafael Corchuelo.
+#
+# In keeping with the traditional purpose of furthering education and research, it is
+# the policy of the copyright owner to permit non-commercial use and redistribution of
+# this software. It has been tested carefully, but it is not guaranteed for any particular
+# purposes.  The copyright owner does not offer any warranties or representations, nor do
+# they accept any liabilities with respect to them.
+
+administrator.notice.form.label.header = Imagen de cabecera:
+administrator.notice.form.label.title = Título:
+administrator.notice.form.label.creation = Fecha de creación:
+administrator.notice.form.label.deadline = Fecha de expiración:
+administrator.notice.form.label.body = Texto del cuerpo:
+administrator.notice.form.label.related = Relacionado:
+administrator.notice.form.button.return = Volver
+
+administrator.notice.form.label.confirmation=Confirmación
+administrator.notice.confirmation-not-checked = Debe aceptar el campo de confirmación
+administrator.notice.form.button.create=Crear
+administrator.notice.incorrect-deadline=La fecha de expiración debe ser futura.
+administrator.notice.null-deadline = Debe introducir una fecha de expiración.
+
+administrator.notice.list.label.title = Título
+administrator.notice.list.label.creation = Fecha de creación

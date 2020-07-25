@@ -1,0 +1,36 @@
+# i18n_en.messages
+#
+# Copyright (c) 2019 Rafael Corchuelo.
+#
+# In keeping with the traditional purpose of furthering education and research, it is
+# the policy of the copyright owner to permit non-commercial use and redistribution of
+# this software. It has been tested carefully, but it is not guaranteed for any particular
+# purposes.  The copyright owner does not offer any warranties or representations, nor do
+# they accept any liabilities with respect to them.
+
+administrator.challenge.form.label.title = Title:
+administrator.challenge.form.label.deadline = Deadline:
+administrator.challenge.form.label.description = Description:
+administrator.challenge.form.label.rookieGoal = Rookie goal:
+administrator.challenge.form.label.rookieReward = Rookie reward:
+administrator.challenge.form.label.averageGoal = Average goal:
+administrator.challenge.form.label.averageReward = Average reward:
+administrator.challenge.form.label.expertGoal = Expert goal:
+administrator.challenge.form.label.expertReward = Expert reward:
+administrator.challenge.form.button.return = Return
+
+administrator.challenge.form.label.rookieLevel = Rookie level
+administrator.challenge.form.label.averageLevel = Average level
+administrator.challenge.form.label.expertLevel = Expert level
+
+administrator.challenge.incorrect-currency = Currency must be Euro
+administrator.challenge.null-money = You must introduce a valid money quantity
+administrator.challenge.must-be-filled = You must fill this field
+administrator.challenges.incorrect-date = This deadline seems to be in the past
+
+administrator.challenge.form.button.create=Create
+administrator.challenge.form.button.update=Update
+administrator.challenge.form.button.delete = Delete
+
+administrator.challenge.list.label.title = Title
+administrator.challenge.list.label.deadline = Deadline

@@ -1,0 +1,45 @@
+# i18n_es.messages
+#
+# Copyright (c) 2019 Rafael Corchuelo.
+#
+# In keeping with the traditional purpose of furthering education and research, it is
+# the policy of the copyright owner to permit non-commercial use and redistribution of
+# this software. It has been tested carefully, but it is not guaranteed for any particular
+# purposes.  The copyright owner does not offer any warranties or representations, nor do
+# they accept any liabilities with respect to them.
+
+administrator.dashboard.form.label.chartTitle = Gráfica de sectores de tecnologías y herramientas.
+
+administrator.dashboard.form.label.chart1 = Gráfica de código fuente abierto o cerrado de tecnologías
+administrator.dashboard.form.label.chart2 = Gráfica de código fuente abierto o cerrado de herramientas
+
+administrator.dashboard.form.button.return = Volver
+
+administrator.dashboard.form.label.inquiryInformation = Información sobre peticiones
+administrator.dashboard.form.label.overtureInformation = Information sobre propuestas
+
+administrator.dashboard.form.label.totalNumberOfNotices = Número total de avisos:
+administrator.dashboard.form.label.totalNumberOfTechnologyRecords = Número total de registros de tecnologías:
+administrator.dashboard.form.label.totalNumberOfToolRecords = Número total de registros de herramientas: 
+
+administrator.dashboard.form.label.minimumMoneyInquiries = Cantidad mínima monetaria de peticiones:
+administrator.dashboard.form.label.maximumMoneyInquiries = Cantidad máxima monetaria de peticiones:
+administrator.dashboard.form.label.averageMoneyInquiries = Media de cantidades monetarias de peticiones:
+administrator.dashboard.form.label.standardDesviationMoneyInquiries = Desviación típica de cantidades monetarias de peticiones:
+
+administrator.dashboard.form.label.minimumMoneyOvertures = Cantidad mínima monetaria de propuestas:
+administrator.dashboard.form.label.maximumMoneyOvertures = Cantidad máxima monetaria de propuestas:
+administrator.dashboard.form.label.averageMoneyOvertures = Media de cantidades monetarias de propuestas:
+administrator.dashboard.form.label.standardDesviationMoneyOvertures = Desviación típica de cantidades monetarias de propuestas:
+
+administrator.dashboard.form.label.applicationsAndInvestmentRounds = Solicitudes de inversión y rondas de inversión
+administrator.dashboard.form.label.averageRoundsPerEntrepreneur = Número de rondas de inversiones por emprendedor:
+administrator.dashboard.form.label.averageApplicationsPerEntrepreneur = Número de solicitudes de inversión por emprendedor:
+administrator.dashboard.form.label.averageApplicationsPerInvestor = Número de solicitudes de inversión por inversor:
+
+administrator.dashboard.form.label.roundsByKindRatiosChart = Rondas de inversión por tipo
+administrator.dashboard.form.label.applicationsByStatusRatiosChart = Solicitudes a las rondas de inversión por estado
+
+administrator.dashboard.form.label.timeSeries = Gráfico temporal acerca del estado de aplicaciones a rondas de inversión
+
+administrator.dashboard.form.button.return = Volver

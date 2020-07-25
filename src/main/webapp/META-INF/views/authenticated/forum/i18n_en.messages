@@ -1,0 +1,30 @@
+# i18n_en.messages
+#
+# Copyright (c) 2019 Rafael Corchuelo.
+#
+# In keeping with the traditional purpose of furthering education and research, it is
+# the policy of the copyright owner to permit non-commercial use and redistribution of
+# this software. It has been tested carefully, but it is not guaranteed for any particular
+# purposes.  The copyright owner does not offer any warranties or representations, nor do
+# they accept any liabilities with respect to them.
+
+authenticated.forum.form.label.creatorName = Creator:
+authenticated.forum.form.label.titleName = Title:
+authenticated.forum.form.label.creationDate = Creation date:
+authenticated.forum.form.label.messages = Messages
+authenticated.forum.form.label.messages.title = Message title:
+authenticated.forum.form.label.messages.tags = Message tags:
+authenticated.forum.form.label.messages.body = Message body:
+authenticated.forum.form.label.messages.moment = Message's moment of publication:
+
+authenticated.forum.form.button.return = Return
+authenticated.forum.form.button.create = Create forum
+authenticated.forum.form.button.messageList = List messages
+authenticated.forum.form.button.message.create = Create message
+authenticated.forum.form.button.message.listarUsuario = List forum users
+authenticated.forum.form.button.message.anadirUsuario = Add user to this forum
+
+authenticated.forum.list.label.creatorName = Creator:
+authenticated.forum.list.label.titleName = Title:
+
+authenticated.forum.spamWords = Do not write spam words

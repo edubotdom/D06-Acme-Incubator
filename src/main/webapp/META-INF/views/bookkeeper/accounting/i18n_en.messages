@@ -1,0 +1,24 @@
+# i18n_en.messages
+#
+# Copyright (c) 2019 Rafael Corchuelo.
+#
+# In keeping with the traditional purpose of furthering education and research, it is
+# the policy of the copyright owner to permit non-commercial use and redistribution of
+# this software. It has been tested carefully, but it is not guaranteed for any particular
+# purposes.  The copyright owner does not offer any warranties or representations, nor do
+# they accept any liabilities with respect to them.
+
+bookkeeper.accounting.form.label.title = Title:
+bookkeeper.accounting.form.label.creation = Creation date:
+bookkeeper.accounting.form.label.status = Status:
+bookkeeper.accounting.form.label.status.published = Published
+bookkeeper.accounting.form.label.status.draft = Draft
+bookkeeper.accounting.form.label.body = Body:
+bookkeeper.accounting.form.label.bookkeeper = Bookkeeper name:
+bookkeeper.accounting.form.label.round = Round ticker:
+bookkeeper.accounting.form.button.createAccounting = Create
+bookkeeper.accounting.form.button.return = Return
+bookkeeper.accounting.form.button.update = Update
+
+bookkeeper.accounting.list.label.title = Title
+bookkeeper.accounting.list.label.creation = Creation date

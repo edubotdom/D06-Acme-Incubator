@@ -1,0 +1,28 @@
+# i18n_en.messages
+#
+# Copyright (c) 2019 Rafael Corchuelo.
+#
+# In keeping with the traditional purpose of furthering education and research, it is
+# the policy of the copyright owner to permit non-commercial use and redistribution of
+# this software. It has been tested carefully, but it is not guaranteed for any particular
+# purposes.  The copyright owner does not offer any warranties or representations, nor do
+# they accept any liabilities with respect to them.
+
+administrator.overture.form.label.title = Title:
+administrator.overture.form.label.creation = Creation date:
+administrator.overture.form.label.deadline = Deadline date:
+administrator.overture.form.label.description = Description:
+administrator.overture.form.label.money = Money:
+administrator.overture.form.label.contact = Contact email:
+administrator.overture.form.button.return = Return
+
+administrator.overture.form.button.create=Create
+administrator.overture.form.button.update=Update
+administrator.overture.form.button.delete = Delete
+administrator.overture.null-deadline = You must introduce a deadline
+administrator.overture.incorrect-deadline = You must introduce a future deadline
+administrator.overture.null-money = You must introduce a money quantity
+administrator.overture.incorrect-currency = You must introduce a quantity in Euro currency
+
+administrator.overture.list.label.title = Title
+administrator.overture.list.label.creation = Creation date

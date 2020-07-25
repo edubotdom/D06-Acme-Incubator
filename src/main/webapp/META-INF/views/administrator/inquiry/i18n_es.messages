@@ -1,0 +1,28 @@
+# i18n_es.messages
+#
+# Copyright (c) 2019 Rafael Corchuelo.
+#
+# In keeping with the traditional purpose of furthering education and research, it is
+# the policy of the copyright owner to permit non-commercial use and redistribution of
+# this software. It has been tested carefully, but it is not guaranteed for any particular
+# purposes.  The copyright owner does not offer any warranties or representations, nor do
+# they accept any liabilities with respect to them.
+
+administrator.inquiry.form.label.title = Título:
+administrator.inquiry.form.label.creation = Fecha de creación:
+administrator.inquiry.form.label.deadline = Fecha de expiración:
+administrator.inquiry.form.label.description = Descripción:
+administrator.inquiry.form.label.money = Dinero:
+administrator.inquiry.form.label.contact = Correo electrónico de contacto:
+administrator.inquiry.form.button.return = Volver
+
+administrator.inquiry.form.button.create=Crear
+administrator.inquiry.form.button.update=Actualizar
+administrator.inquiry.form.button.delete = Eliminar
+administrator.inquiry.null-deadline = Debe introducir una fecha de expiración
+administrator.inquiry.incorrect-deadline = No puede introducir una fecha de expiración pasada
+administrator.inquiry.null-money = Debe introducir una cantidad monetaria
+administrator.inquiry.incorrect-currency = Debe introducir una cantidad monetaria en euros
+
+administrator.inquiry.list.label.title = Título
+administrator.inquiry.list.label.creation = Fecha de creación

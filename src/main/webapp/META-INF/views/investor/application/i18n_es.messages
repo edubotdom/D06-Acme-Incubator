@@ -1,0 +1,32 @@
+# i18n_es.messages
+#
+# Copyright (c) 2019 Rafael Corchuelo.
+#
+# In keeping with the traditional purpose of furthering education and research, it is
+# the policy of the copyright owner to permit non-commercial use and redistribution of
+# this software. It has been tested carefully, but it is not guaranteed for any particular
+# purposes.  The copyright owner does not offer any warranties or representations, nor do
+# they accept any liabilities with respect to them.
+
+investor.application.list.label.ticker = Identificador de la aplicación:
+investor.application.list.label.creation = Fecha de creación:
+
+investor.application.form.label.ticker = Identificador de la aplicación:
+investor.application.form.label.roundTicker = Identificación de la ronda de inversión:
+investor.application.form.label.roundCreator = Creador de la ronda de inversión: 
+investor.application.form.label.creation = Fecha de creación:
+investor.application.form.label.statement = Declaración:
+investor.application.form.label.offer = Oferta monetaria de inversión:
+investor.application.form.label.investor = Inversor:
+investor.application.form.label.status = Estado:
+investor.application.form.label.justification = Justificación:
+
+investor.application.form.label.status.accepted= Aceptado
+investor.application.form.label.status.rejected = Rechazado
+investor.application.form.label.status.pending = Pendiente
+
+investor.application.incorrectYearOfTicker = El identificador, en su segundo campo, debe tener los dos últimos dígitos del año
+investor.application.incorrect-currency = La moneda debe ser Euro (EUR o €)
+
+investor.application.form.button.return = Volver
+investor.application.form.button.create = Crear

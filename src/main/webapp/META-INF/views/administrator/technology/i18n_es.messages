@@ -1,0 +1,28 @@
+# i18n_es.messages
+#
+# Copyright (c) 2019 Rafael Corchuelo.
+#
+# In keeping with the traditional purpose of furthering education and research, it is
+# the policy of the copyright owner to permit non-commercial use and redistribution of
+# this software. It has been tested carefully, but it is not guaranteed for any particular
+# purposes.  The copyright owner does not offer any warranties or representations, nor do
+# they accept any liabilities with respect to them.
+
+administrator.technology.form.label.title = Título:
+administrator.technology.form.label.sector = Sector:
+administrator.technology.form.label.inventor = Inventor:
+administrator.technology.form.label.description = Descripción:
+administrator.technology.form.label.website = Página web:
+administrator.technology.form.label.contact = Correo electrónico:
+administrator.technology.form.label.source = Código fuente:
+administrator.technology.form.label.stars = Valoración, de -5 a 5:
+administrator.technology.form.button.return = Volver
+
+administrator.technology.form.button.create=Crear
+administrator.technology.form.button.update=Actualizar
+administrator.technology.form.button.delete = Eliminar
+
+administrator.technology.incorrectSector = Debe introducir un sector correcto
+
+administrator.technology.list.label.title = Título
+administrator.technology.list.label.stars = Valoración, de -5 a 5:

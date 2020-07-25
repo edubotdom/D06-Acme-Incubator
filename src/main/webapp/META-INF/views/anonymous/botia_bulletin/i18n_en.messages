@@ -1,0 +1,24 @@
+# i18n_en.messages
+#
+# Copyright (c) 2019 Rafael Corchuelo.
+#
+# In keeping with the traditional purpose of furthering education and research, it is
+# the policy of the copyright owner to permit non-commercial use and redistribution of
+# this software. It has been tested carefully, but it is not guaranteed for any particular
+# purposes.  The copyright owner does not offer any warranties or representations, nor do
+# they accept any liabilities with respect to them.
+
+anonymous.botiaBulletin.form.label.expiring_date.past_expired = You cannot introduce a past expiring date
+
+anonymous.botiaBulletin.form.label.author = Author:
+anonymous.botiaBulletin.form.label.expiring_date = Expiring date:
+anonymous.botiaBulletin.form.label.title = Title:
+anonymous.botiaBulletin.form.label.text_body = Bulletin text:
+anonymous.botiaBulletin.form.button.create = Publish
+anonymous.botiaBulletin.form.button.return = Return
+
+anonymous.botiaBulletin.list.label.moment = Publish date
+anonymous.botiaBulletin.list.label.expiring_date = Expiring date
+anonymous.botiaBulletin.list.label.author = Author
+anonymous.botiaBulletin.list.label.title = Title
+anonymous.botiaBulletin.list.label.text_body = Bulletin text

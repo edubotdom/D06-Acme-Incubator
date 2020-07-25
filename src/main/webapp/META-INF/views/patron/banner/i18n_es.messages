@@ -1,0 +1,25 @@
+# i18n_es.messages
+#
+# Copyright (c) 2019 Rafael Corchuelo.
+#
+# In keeping with the traditional purpose of furthering education and research, it is
+# the policy of the copyright owner to permit non-commercial use and redistribution of
+# this software. It has been tested carefully, but it is not guaranteed for any particular
+# purposes.  The copyright owner does not offer any warranties or representations, nor do
+# they accept any liabilities with respect to them.
+
+
+patron.banner.form.button.return = Volver
+patron.banner.form.label.slogan=Eslogan
+patron.banner.form.label.picture=Imagen del anuncio
+patron.banner.form.label.url = Enlace
+
+patron.banner.form.button.createCC = Asociar tarjeta
+patron.banner.form.button.showCC = Mostrar tarjeta
+
+patron.banner.form.button.create=Crear
+patron.banner.form.button.update=Actualizar
+patron.banner.form.button.delete = Eliminar
+
+patron.banner.list.label.slogan = Eslogan
+patron.banner.spamWords = No introduzca palabras restringidas

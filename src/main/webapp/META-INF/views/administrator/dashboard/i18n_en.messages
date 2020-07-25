@@ -1,0 +1,45 @@
+# i18n_en.messages
+#
+# Copyright (c) 2019 Rafael Corchuelo.
+#
+# In keeping with the traditional purpose of furthering education and research, it is
+# the policy of the copyright owner to permit non-commercial use and redistribution of
+# this software. It has been tested carefully, but it is not guaranteed for any particular
+# purposes.  The copyright owner does not offer any warranties or representations, nor do
+# they accept any liabilities with respect to them.
+
+administrator.dashboard.form.label.chartTitle = Techonogies and Tools by sectors chart 
+
+administrator.dashboard.form.label.chart1 = Chart of Open-Closed source Technologies
+administrator.dashboard.form.label.chart2 = Chart of Open-Closed source Tools
+
+administrator.dashboard.form.button.return = Return
+
+administrator.dashboard.form.label.inquiryInformation = Information about inquiries
+administrator.dashboard.form.label.overtureInformation = Information about overtures
+
+administrator.dashboard.form.label.totalNumberOfNotices = Total number of notices:
+administrator.dashboard.form.label.totalNumberOfTechnologyRecords = Total number of technology records:
+administrator.dashboard.form.label.totalNumberOfToolRecords = Total number of tool records: 
+
+administrator.dashboard.form.label.minimumMoneyInquiries = Minimum money from inquiries:
+administrator.dashboard.form.label.maximumMoneyInquiries = Maximum money from inquiries:
+administrator.dashboard.form.label.averageMoneyInquiries = Average money from inquiries:
+administrator.dashboard.form.label.standardDesviationMoneyInquiries = Standard desviation of money from inquiries:
+
+administrator.dashboard.form.label.minimumMoneyOvertures = Minimum offer of money from Overtures:
+administrator.dashboard.form.label.maximumMoneyOvertures = Maximum offer of money from Overtures:
+administrator.dashboard.form.label.averageMoneyOvertures = Average offer of money from Overtures:
+administrator.dashboard.form.label.standardDesviationMoneyOvertures = Standard desviation of money from Overtures:
+
+administrator.dashboard.form.label.applicationsAndInvestmentRounds = Applications and Investment Rounds 
+administrator.dashboard.form.label.averageRoundsPerEntrepreneur = Average investment rounds per entrepreneur:
+administrator.dashboard.form.label.averageApplicationsPerEntrepreneur = Average applications per entrepreneur:
+administrator.dashboard.form.label.averageApplicationsPerInvestor = Average applications per investor:
+
+administrator.dashboard.form.label.roundsByKindRatiosChart = Investment rounds by kind
+administrator.dashboard.form.label.applicationsByStatusRatiosChart = Application to investment rounds by status
+
+administrator.dashboard.form.label.timeSeries = Application to investment round status' time series
+
+administrator.dashboard.form.button.return = Return

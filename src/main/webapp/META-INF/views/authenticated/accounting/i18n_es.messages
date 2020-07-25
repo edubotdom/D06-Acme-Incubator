@@ -1,0 +1,22 @@
+# i18n_es.messages
+#
+# Copyright (c) 2019 Rafael Corchuelo.
+#
+# In keeping with the traditional purpose of furthering education and research, it is
+# the policy of the copyright owner to permit non-commercial use and redistribution of
+# this software. It has been tested carefully, but it is not guaranteed for any particular
+# purposes.  The copyright owner does not offer any warranties or representations, nor do
+# they accept any liabilities with respect to them.
+
+authenticated.accounting.form.label.title = Título:
+authenticated.accounting.form.label.creation = Fecha de creación:
+authenticated.accounting.form.label.status = Estado:
+authenticated.accounting.form.label.status.published = Publicado
+authenticated.accounting.form.label.status.draft = Borrador
+authenticated.accounting.form.label.body = Cuerpo de la contabilidad:
+authenticated.accounting.form.label.authenticated = Nombre del contable:
+authenticated.accounting.form.label.round = Identificación de la ronda de inversión:
+authenticated.accounting.form.button.return = Volver
+
+authenticated.accounting.list.label.title = Título
+authenticated.accounting.list.label.creation = Fecha de creación

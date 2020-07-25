@@ -1,0 +1,49 @@
+# i18n_en.messages
+#
+# Copyright (c) 2019 Rafael Corchuelo.
+#
+# In keeping with the traditional purpose of furthering education and research, it is
+# the policy of the copyright owner to permit non-commercial use and redistribution of
+# this software. It has been tested carefully, but it is not guaranteed for any particular
+# purposes.  The copyright owner does not offer any warranties or representations, nor do
+# they accept any liabilities with respect to them.
+
+entrepreneur.round.list.label.ticker = Ticker
+entrepreneur.round.list.label.creation = Creation date
+
+entrepreneur.round.form.label.ticker = Ticker identifier:
+entrepreneur.round.form.label.creation = Creation date:
+entrepreneur.round.form.label.title = Title:
+entrepreneur.round.form.label.description = Description:
+entrepreneur.round.form.label.money = Amount of money:
+entrepreneur.round.form.label.information = Information:
+entrepreneur.round.form.label.status = Status:
+entrepreneur.round.form.label.draft = Draft
+entrepreneur.round.form.label.published = Published
+
+entrepreneur.round.form.label.kind = Kind of the investment:
+entrepreneur.round.form.label.kind0 = Seed
+entrepreneur.round.form.label.kind1 = Angel
+entrepreneur.round.form.label.kind2 = Series-A
+entrepreneur.round.form.label.kind3 = Series-B
+entrepreneur.round.form.label.kind4 = Series-C
+entrepreneur.round.form.label.kind5 = Bridge
+
+entrepreneur.round.form.button.accountingList = Accounting list
+entrepreneur.round.form.button.createActivities = Create activities
+entrepreneur.round.form.button.activitiesList = List Activities
+
+entrepreneur.round.form.button.create = Create
+entrepreneur.round.form.button.update = Update
+entrepreneur.round.form.button.delete = Delete
+
+entrepreneur.round.form.button.return = Return
+
+entrepreneur.round.incorrectKind = Kind of investment invalid.
+entrepreneur.round.incorrectYearOfTicker = Ticker format is not correct, as the 2 last numbers of the year must be typed in the second part.
+entrepreneur.round.incorrect-currency = Currency must be Euro.
+entrepreneur.round.repeatedTicker = Ticker identification must be unique.
+entrepreneur.round.activitiesBudgetNotMatchRoundMoney = Before publishing, check activities budget match round money
+entrepreneur.round.spamInText = No puede introducir palabras restringidas en este campo
+entrepreneur.round.roundWithApplicationsCantBeDeleted = No puede eliminar rondas de inversión con aplicaciones
+entrepreneur.round.incorrectSector = El sector introducido en el identificador no se encuentra registrado
