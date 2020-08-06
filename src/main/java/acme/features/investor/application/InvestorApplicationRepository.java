@@ -29,4 +29,7 @@ public interface InvestorApplicationRepository extends AbstractRepository {
 
 	@Query("select c from Customization c")
 	Customization findCustomization();
+
+	@Query("select j from Application j where j.ticker = ?1")
+	Application findOneApplicationByTicker(String ticker);
 }

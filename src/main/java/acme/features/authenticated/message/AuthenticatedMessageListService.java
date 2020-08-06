@@ -27,18 +27,18 @@ public class AuthenticatedMessageListService implements AbstractListService<Auth
 		assert request != null;
 		Boolean result;
 		int countUser;
-		int threadId;
+		int forumId;
 
 		Principal principal;
 		int principalId;
 
-		threadId = request.getModel().getInteger("id");
+		forumId = request.getModel().getInteger("id");
 
 		principal = request.getPrincipal();
 		principalId = principal.getAccountId();
-		countUser = this.repository.countAuthenticatedByForumId(principalId, threadId);
+		countUser = this.repository.countAuthenticatedByForumId(principalId, forumId);
 
-		result = countUser != 0;			// si suma 1 significa que dicho thread pertenece a dicho Authenticated
+		result = countUser != 0;
 
 		return result;
 	}
