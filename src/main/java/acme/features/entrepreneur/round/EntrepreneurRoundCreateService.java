@@ -105,7 +105,10 @@ public class EntrepreneurRoundCreateService implements AbstractCreateService<Ent
 		if (entity.getMoney() != null) {
 			boolean isCurrencyCorrect = entity.getMoney().getCurrency().equals("EUR") || entity.getMoney().getCurrency().equals("€");
 			errors.state(request, isCurrencyCorrect, "money", "entrepreneur.round.incorrect-currency");
+
+			errors.state(request, entity.getMoney().getAmount() > 0, "money", "entrepreneur.round.incorrect-money-quantity");
 		}
+
 	}
 
 	@Override
@@ -114,11 +117,7 @@ public class EntrepreneurRoundCreateService implements AbstractCreateService<Ent
 		assert entity != null;
 
 		Round round = this.repository.save(entity);
-		/*
-		 * Forum forum = new Forum();
-		 * forum.setRound(round);
-		 * this.forumRepository.save(forum);
-		 */
+
 	}
 
 }

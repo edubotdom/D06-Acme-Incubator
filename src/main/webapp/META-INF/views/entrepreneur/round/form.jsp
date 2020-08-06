@@ -30,8 +30,9 @@ s not guaranteed for any particular
 	</jstl:if>
 	
 	<jstl:if test="${(command == 'show' || command == 'update' || command == 'delete') && isFinalMode == 'true'}">
-			<acme:form-textbox code="entrepreneur.round.form.label.status" path="status" readonly="true"/>
-	</jstl:if>
+		<acme:form-select code="entrepreneur.round.form.label.status" path="status">
+			<acme:form-option code="entrepreneur.round.form.label.published" value="1"/>
+		</acme:form-select>	</jstl:if>
 	
 	<jstl:if test="${(command == 'show' || command == 'update' || command == 'delete') && isFinalMode == 'false'}">
 		<acme:form-select code="entrepreneur.round.form.label.status" path="status">
@@ -75,6 +76,9 @@ s not guaranteed for any particular
 
 	<acme:form-submit test="${command == 'create'}" code="entrepreneur.round.form.button.create" action="/entrepreneur/round/create" />
 
+	<acme:form-hidden path="accountingList"/>
+	<acme:form-hidden path="roundCreateActivity"/>
+	<acme:form-hidden path="roundListActivities"/>	
 	<acme:form-hidden path="budgetFulfilled"/>
 	<acme:form-hidden path="iAmPrincipal"/>
 	<acme:form-hidden path="roundApplied"/>

@@ -39,11 +39,12 @@ entrepreneur.round.form.button.delete = Eliminar
 
 entrepreneur.round.form.button.return = Volver
 
+entrepreneur.round.incorrect-money-quantity = La cantidad monetaria debe ser superior a 0.
 entrepreneur.round.incorrectKind = El tipo de inversión es incorrecto.
 entrepreneur.round.incorrectYearOfTicker = Fecha introducida en el identificador incorrecta, en el segundo campo deben introducirse los dos últimos dígitos del presente año.
 entrepreneur.round.incorrect-currency = La moneda debe ser Euro.
 entrepreneur.round.repeatedTicker = No puede repetir el identificador en distintas rondas de inversión.
 entrepreneur.round.activitiesBudgetNotMatchRoundMoney = Antes de publicar, asegúrese que el presupuesto de las actividades no coincide con el presupuesto de la ronda de inversión
-entrepreneur.round.spamInText = Cannot introduce Spam in this field
+entrepreneur.round.spamInText = No puede introducir palabras restringidas en este campo
 entrepreneur.round.roundWithApplicationsCantBeDeleted = You cannot delete a round with applications
 entrepreneur.round.incorrectSector = Sector introduced in ticker is not registered

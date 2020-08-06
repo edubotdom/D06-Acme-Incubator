@@ -117,6 +117,8 @@ public class EntrepreneurRoundUpdateService implements AbstractUpdateService<Ent
 		if (entity.getMoney() != null) {
 			boolean isCurrencyCorrect = entity.getMoney().getCurrency().equals("EUR") || entity.getMoney().getCurrency().equals("€");
 			errors.state(request, isCurrencyCorrect, "money", "entrepreneur.round.incorrect-currency");
+			errors.state(request, entity.getMoney().getAmount() > 0, "money", "entrepreneur.round.incorrect-money-quantity");
+
 		}
 		if (entity.getMoney() != null) {
 			Double activitiesBudgetSum = this.repository.findManyActivitiesByRound(entity.getId()).stream().mapToDouble(a -> a.getBudget().getAmount()).sum();

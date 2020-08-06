@@ -102,6 +102,11 @@ public class InvestorApplicationCreateService implements AbstractCreateService<I
 
 		Integer year = Calendar.getInstance().get(Calendar.YEAR);
 
+		if (!entity.getTicker().isEmpty()) {
+			Application sameTicker = this.repository.findOneApplicationByTicker(entity.getTicker());
+			errors.state(request, sameTicker == null, "ticker", "entrepreneur.round.repeatedTicker");
+		}
+
 		if (!entity.getTicker().isEmpty() && entity.getTicker().trim().split("-").length > 1) {
 			String shortYear = year.toString().substring(2);
 			String shortTickerYear = entity.getTicker().trim().split("-")[1];
